@@ -1,4 +1,4 @@
-# 4. InventoryService
+# InventoryService
 - Monitor stock levels across multiple warehouses.
 - Sync inventory updates from suppliers or ERP.
 - Reserve stock during checkout workflows.
