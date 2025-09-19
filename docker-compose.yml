@@ -5,11 +5,11 @@ services:
     build: .
     container_name: inventory-service
     ports:
-      - "8001:8001"
+      - "8004:8004"
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://localhost:5432/e_database
-      SPRING_DATASOURCE_USERNAME: ${DB_USER}
-      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: admin123
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
       SPRING_JPA_HIBERNATE_DDL_AUTO: none
     depends_on: []
