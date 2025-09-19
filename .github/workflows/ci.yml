@@ -20,7 +20,9 @@ jobs:
 
 
       - name: Build with Gradle
-        run: ./gradlew clean build -x --stacktrace
+        run: ./gradlew clean build --stacktrace
+
 
       - name: Run tests
-        run: ./gradlew test --stacktrace -x --stacktrace
+        run: ./gradlew test --stacktrace
+      
